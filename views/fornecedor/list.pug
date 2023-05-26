@@ -1,0 +1,10 @@
+html    
+    head    
+        title Listagem
+
+    body 
+        h1 Listagem de Fornecedor
+        a(href ='/fornecedor/form') Formulário   de Fornecedor
+        ul 
+            each fornecedor in fornecedorList
+                li= fornecedor.name 

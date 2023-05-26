@@ -1,0 +1,10 @@
+html    
+    head    
+        title Listagem
+
+    body 
+        h1 Listagem de Produtos
+        a(href ='/products/form') Listagem de Produtos
+        ul 
+        each product in productsList
+            li= product.name 

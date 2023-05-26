@@ -1,0 +1,13 @@
+html    
+    head    
+        title Listagem
+    body 
+        h1 Mercado
+        h2 Fornecedores 
+        ul 
+            each fornecedor in fornecedorList
+                li= fornecedor.name
+        h2 Produtos
+        ul 
+            each product in productsList
+                li= product.name

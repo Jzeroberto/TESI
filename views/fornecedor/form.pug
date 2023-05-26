@@ -1,0 +1,10 @@
+html 
+    head 
+        title Formulário de Fornecedores 
+    body 
+        h1 Listagem  de Fornecedores 
+        a(href = '/fornecedor') Listagem de Fornecedores
+        form(action = '/fornecedor/create' ,method= "post")
+            label Nome do Fornecedores   
+                input(name='name', requerid, type= 'text')
+            button(type= "submit") Salvar
